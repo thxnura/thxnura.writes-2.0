@@ -2,9 +2,11 @@ import React from "react"
 import { GetStaticProps } from "next"
 import Layout from "../components/Layout"
 import Post, { PostProps } from "../components/Post"
+import { PrismaClient } from '@prisma/client'
+const prisma = new PrismaClient()
 
 
-import prisma from '../lib/prisma';
+
 
 // index.tsx
 export const getStaticProps: GetStaticProps = async () => {
