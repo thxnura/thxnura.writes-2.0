@@ -83,6 +83,11 @@
   "resolved" "https://registry.npmjs.org/@prisma/engines-version/-/engines-version-3.12.0-37.22b822189f46ef0dc5c5b503368d1bee01213980.tgz"
   "version" "3.12.0-37.22b822189f46ef0dc5c5b503368d1bee01213980"
 
+"@prisma/engines@3.12.0-37.22b822189f46ef0dc5c5b503368d1bee01213980":
+  "integrity" "sha512-zULjkN8yhzS7B3yeEz4aIym4E2w1ChrV12i14pht3ePFufvsAvBSoZ+tuXMvfSoNTgBS5E4bolRzLbMmbwkkMQ=="
+  "resolved" "https://registry.npmjs.org/@prisma/engines/-/engines-3.12.0-37.22b822189f46ef0dc5c5b503368d1bee01213980.tgz"
+  "version" "3.12.0-37.22b822189f46ef0dc5c5b503368d1bee01213980"
+
 "@types/debug@^4.0.0":
   "integrity" "sha512-9AonUzyTjXXhEOa0DnqpzZi6VHlqKMswga9EXjpXnnqxwLtdvPPtlO8evrI5D9S6asFRCQ6v+wpiUKbw+vKqyg=="
   "resolved" "https://registry.npmjs.org/@types/debug/-/debug-4.1.7.tgz"
@@ -1095,6 +1100,13 @@
   "integrity" "sha1-v77VbV6ad2ZF9LH/eqGjrE+jw4U="
   "resolved" "https://registry.npmjs.org/pretty-format/-/pretty-format-3.8.0.tgz"
   "version" "3.8.0"
+
+"prisma@*", "prisma@^3.12.0":
+  "integrity" "sha512-ltCMZAx1i0i9xuPM692Srj8McC665h6E5RqJom999sjtVSccHSD8Z+HSdBN2183h9PJKvC5dapkn78dd0NWMBg=="
+  "resolved" "https://registry.npmjs.org/prisma/-/prisma-3.12.0.tgz"
+  "version" "3.12.0"
+  dependencies:
+    "@prisma/engines" "3.12.0-37.22b822189f46ef0dc5c5b503368d1bee01213980"
 
 "prop-types@^15.0.0":
   "integrity" "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg=="
